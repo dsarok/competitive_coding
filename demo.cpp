@@ -1,14 +1,1 @@
-#include<iostream>
-using namespace std;
-int main(){
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    int var;
-    cin>>var;
-    for(int i=1; i<=10; i++){
-      cout<<var * i<<endl;
-    }
- return 0;
-}
+#include<iostream>using namespace std;long long int main(){    #ifndef ONLINE_JUDGE    freopen("input.txt", "r", stdin);    freopen("output.txt", "w", stdout);    #endif    ios_base::sync_with_stdio(false);    cin.tie(NULL);    cout.tie(NULL);     return 0;}
